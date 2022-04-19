@@ -1,0 +1,24 @@
+{
+  "name": "portfoliobackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "main": "npm start --prefix main",
+    "dev": "concurrently \"npm run server\" \"npm run main\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix main && npm run build --prefix main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "react-icons": "^4.3.1"
+  }
+}

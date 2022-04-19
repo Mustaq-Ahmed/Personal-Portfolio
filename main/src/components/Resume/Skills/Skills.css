@@ -1,0 +1,26 @@
+
+.skill-parent{
+    position: relative; /*relative because we are using "heading-bullet" class as child for round mark*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.skill-percentage{
+    position: relative;
+    height: 21px;
+    width: 50%;
+    background-color: rgb(13, 124, 113);
+}
+
+.skill-parent .active-percentage-bar{
+    position: absolute;
+    height: 21px;
+    background-color: rgb(53, 40, 40);
+}
+
+.skill-parent span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}

@@ -1,0 +1,55 @@
+.resume-container{
+    padding-top: 4rem;
+    background-color: #3b538a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resume-content h1{
+        text-align: center;
+        border-bottom: 4px solid rgb(37, 189, 121);
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+        margin-bottom: 2rem;
+}
+
+.resume-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 3rem 0; */
+}
+
+.resume-card{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    height: 360px;
+    width: 1000px;
+}
+
+.resume-bullets{
+    box-shadow: 15px 0 9px -15px #1f2235;
+    height: 100%;
+    width: 320px;
+}
+
+  .resume-bullet-details{
+    flex-grow: 1;
+    width: 600px;
+    overflow: hidden;
+    padding: 0 0 0 80px;
+}
+
+.experience-description{
+    margin: 10px 0 0 0;
+    text-align: justify;
+    width: 100%;
+}
+
+.resume-details-carousal{
+    transition: transform 1s ease-out;
+}

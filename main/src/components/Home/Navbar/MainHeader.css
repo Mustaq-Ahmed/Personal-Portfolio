@@ -1,0 +1,31 @@
+.main-header-container{
+    height: 5rem;
+    /* background-color: #1e45a1; */
+    background-color: #3b538a;
+    /* background-color: rgba(0, 0, 0, 0.85) ; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+    /* background-color: 0px 1px 2px 2px rgba(0, 0, 0, 0.5) ; */
+    /* position: fixed;  whenever give position: fixed; make sure to give width*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+@media screen and (max-width : 810px){
+    .main-header-container{
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width : 510px){
+    .main-header-container{
+        height: 4rem;
+    }
+    .main-header-container{
+        padding: 0 2rem;
+    }
+}

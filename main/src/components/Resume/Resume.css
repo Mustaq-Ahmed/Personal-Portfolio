@@ -1,0 +1,193 @@
+.resume-container{
+    padding-top: 5rem;
+    background-color: #3b538a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resume-content h1{
+        text-align: center;
+        border-bottom: 4px solid rgb(37, 189, 121);
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+        /* margin-bottom: 2rem; */
+}
+
+.resume-navbar button{
+    padding: 8px 15px;
+    margin: 2rem 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(53, 40, 40);
+    color: white;
+}
+
+.resume-navbar button:hover,
+.resume-navbar button:focus,
+.resume-navbar button:active{
+    border: 1px solid rgb(129, 24, 24);
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+
+.resume-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0px 20px -2px #1f2235;
+    background-color: #3b538a;
+    max-width: 1000px;
+    width: 70%;
+    /* height: 600px; */
+    /* margin-bottom: 2rem; */
+}
+
+.all-components{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 40px 60px;
+    text-align: justify;
+    width: 99%;
+    /* height: 99%; */
+    overflow: auto;
+}
+
+.all-components h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width : 1110px){  /* Ipad Pro  */
+    .resume-card{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width : 810px){ 
+    .resume-card{
+        width: 85%;
+    }
+
+    /* Basic Alteration of padding and font-size */
+    .resume-content h1{
+        border-bottom: 3.5px solid rgb(37, 189, 121);
+        font-size: 35px;
+    }
+
+    .resume-navbar button{
+        padding: 7px 13px;
+        margin: 2rem 1rem;
+        font-size: 15px;
+    }
+
+    .all-components{
+        padding: 35px 50px;
+    }
+    .all-components h1{
+        font-size: 23px;
+    }
+    .resume-main-heading span{
+        font-size: 21px;
+        margin-bottom: 7px;
+    }
+    .resume-sub-heading{
+        font-size: 19px;
+    }
+    .resume-heading-description,
+    .source-code, .live-website{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width : 715px){
+    .resume-card{
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width : 550px){ 
+    .resume-card{
+        width: 92%;
+    }
+
+    /* Basic Alteration of padding and font-size */
+    .resume-content h1{
+        border-bottom: 3px solid rgb(37, 189, 121);
+        font-size: 30px;
+    }
+    
+    .resume-navbar button{
+        padding: 5px 10px;
+        margin: 1.5rem 0.8rem;
+        font-size: 13px;
+    }
+
+    .all-components{
+        padding: 25px 35px;
+    }
+    .all-components h1{
+        font-size: 21px;
+    }
+    .resume-main-heading span{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .resume-sub-heading{
+        font-size: 18px;
+    }
+    .resume-heading-description,
+    .source-code, .live-website{
+        font-size: 17px;
+    }
+    .heading-bullet {
+        left: -20px;
+        height: 11px;
+        width: 11px;
+        top: 4px;
+    }
+}
+
+@media only screen and (max-width : 415px){ 
+    .resume-card{
+        width: 98%;
+    }
+    .resume-navbar button{
+        padding: 3px 6px;
+        margin: 1.2rem 0.6rem;
+        font-size: 12px;
+    }
+
+    .all-components{
+        padding: 20px 30px;
+    }
+    .all-components h1{
+        /* font-size: 20px; */
+        display: none;
+    }
+    .resume-main-heading span{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .resume-sub-heading{
+        font-size: 16px;
+    }
+    .resume-heading-description,
+    .source-code, .live-website{
+        font-size: 15px;
+    }
+    .heading-bullet {
+        left: -15px;
+        height: 9px;
+        width: 9px;
+        top: 3px;
+    }
+}

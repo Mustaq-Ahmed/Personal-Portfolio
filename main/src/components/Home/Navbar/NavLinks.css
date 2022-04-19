@@ -1,0 +1,60 @@
+.navlinks{
+    display: flex;
+    list-style: none;
+    flex-direction: row; /* Default Scenerio */
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: rgb(238, 212, 164);
+    font-size: 22px;
+    margin: 0 2rem;
+    /* margin-right: 4px; */
+    font-weight: bold;
+}
+
+/* .navlinks li:hover,
+.navlinks li:focus,
+.navlinks li:active{
+    transform: scale(1.2);
+    transition: 0.2s ease-out;
+
+} */
+
+
+.navlinks li a:hover,
+.navlinks li a:active,
+.navlinks li a:focus{
+    border-bottom: 2px solid white;
+    color: rgb(223, 180, 100);
+    cursor: pointer;
+}
+
+/* react-scroll activeClass */
+.navlinks li a.active{
+    display: block;
+    border-bottom: 2px solid white;
+    color: rgb(223, 180, 100);
+    transform: scale(1.2);
+    transition: 0.2s ease-out;
+}
+
+@media screen and (max-width: 1110px){  
+    .navlinks li a{
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 810px){ 
+
+    .navlinks {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .navlinks li{
+        margin-top: 15px;
+    }
+
+}

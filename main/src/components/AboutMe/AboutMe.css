@@ -1,0 +1,214 @@
+.about-me-container{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b538a;
+}
+
+.about-me-parent h1{
+    text-align: center;
+    border-bottom: 4px solid rgb(37, 189, 121);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+.about-me-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 70%;
+    /* background-color: burlywood; */
+}
+
+.about-me-card{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0px 20px -2px #1f2235;
+    /* background-color: white; */
+}
+
+.about-me-details{
+    width: 99%;
+    text-align: justify;
+    padding: 40px;
+}
+
+.about-me-description{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.about-me-highlights{
+    font-size: 21px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.highlight-heading{
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.highlight{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.highlight-blob{
+    height: 13px;
+    width: 13px;
+    background-color: rgb(13, 124, 113);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
+
+/* using same css of profile.js */
+.about-me-button-options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.about-me-button-options .btn{
+    padding: 12px  22px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 40px;
+    border-radius: 22px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.contact-me-button{
+    background-color: #ADEFD1FF;
+}
+
+.contact-me-button:hover,
+.contact-me-button:focus{
+    color: #ADEFD1FF;
+    /* background-color: rgb(26, 24, 24); */
+    background-color: #2c2b2b;
+    cursor: pointer;
+}
+
+.resume-download-button{
+    background-color: rgb(194, 96, 47);
+}
+
+.resume-download-button:hover,
+.resume-download-button:focus{
+    color: rgb(216, 110, 57);
+    background-color: #2c2b2b;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width : 1110px){  /* Ipad Pro  */
+    .about-me-parent{
+        width: 80%;
+    }
+    .about-me-button-options .btn{
+        padding: 8px  18px;
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width : 810px){ 
+    .about-me-parent{
+        width: 85%;
+    }
+    .about-me-button-options{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Basic Alteration of padding and font-size */
+    .about-me-parent h1{
+        border-bottom: 3.5px solid rgb(37, 189, 121);
+        font-size: 35px;
+    }
+    .about-me-description{
+        font-size: 19px;
+    }
+    .about-me-details{
+        padding: 35px;
+    }
+    .about-me-highlights{
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    .highlight-heading{
+        margin-bottom: 13px;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width : 715px){
+    .about-me-parent{
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width : 550px){
+    .about-me-parent{
+        width: 92%;
+    }
+    .about-me-button-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-me-button-options .btn{
+        padding: 10px  60px;
+        margin-top: 15px;
+    }
+        /* Basic Alteration of padding and font-size */
+    .about-me-parent h1{
+        border-bottom: 3px solid rgb(37, 189, 121);
+        font-size: 30px;
+    }
+    .about-me-description{
+        font-size: 18px;
+    }
+    .about-me-details{
+        padding: 30px;
+    }
+    .about-me-highlights{
+        font-size: 19px;
+        margin: 35px 0;
+    }
+    .highlight-heading{
+        margin-bottom: 11px;
+        font-size: 20px;
+    }
+    .highlight-blob{
+        height: 11px;
+        width: 11px;
+        margin-right: 10px;
+    }
+ }
+
+ @media only screen and (max-width : 415px){
+    .about-me-parent{
+        width: 98%;
+    }
+    .about-me-button-options .btn{
+        padding: 10px  50px;
+    }
+ }
