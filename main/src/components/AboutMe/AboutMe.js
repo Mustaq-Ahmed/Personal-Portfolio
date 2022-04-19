@@ -62,7 +62,7 @@ export default function AboutMe(props) {
                             >
                                 <button className="btn contact-me-button">Contact Me</button>
                             </Link>
-                            <a href="Mustaq.pdf" download="Mustaq's Resume">
+                            <a href="Mustaq1.pdf" download="Mustaq's Resume">
                                 <button className="btn resume-download-button">Get Resume</button>
                             </a>
                         </div>
