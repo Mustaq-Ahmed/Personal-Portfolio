@@ -45,7 +45,7 @@ export default function ContactMe() {
             }
             console.log(data)
             setIsLoading(true)
-            const response = await axios.post('http://localhost:5000/#contact', data)
+            const response = await axios.post('https://mustaqportfolio.herokuapp.com/#contact', data)
             if (name.length === 0 || email.length === 0 || message.length === 0) {
                 setAlertMsg(response.data.msg)
                 toast.error(response.data.msg)
